@@ -186,9 +186,9 @@ class uyeler(Toplevel):
 
     
     def mailgonder(self):
-        gonderici = "abdulazizslmz@gmail.com"
+        gonderici = "e-posta adresi"
         alici = self.eposta.get()
-        parola = "azizsolmaz28"
+        parola = "sifre"
 
         ileti = MIMEMultipart("alternative")
         ileti["Subject"] =  "Kütüphane Borç Bilgilendirmesi"
